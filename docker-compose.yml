@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  website:
+    image: my-apache-web-app
+    ports:
+      - "8083:8083"
+
